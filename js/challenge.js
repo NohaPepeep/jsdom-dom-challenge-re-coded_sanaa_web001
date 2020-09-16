@@ -38,7 +38,7 @@ heart.addEventListener("click",function(){
   let o = l+1; 
   let select =document.getElementById(m);
   if(select){
-    console.log("exist");
+    select.innerHTML=`${counter} has ${++o}`
   }
   else{
   let li = document.createElement("li");
