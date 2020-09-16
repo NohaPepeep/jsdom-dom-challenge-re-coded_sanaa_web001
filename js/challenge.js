@@ -1,5 +1,6 @@
 let counter=0;
 let l =0;
+let o;
 let count=document.getElementById("counter");
 let minus=document.getElementById("minus");
 let plus=document.getElementById("plus");
@@ -35,7 +36,7 @@ pause.addEventListener("click",function(){
 })
 heart.addEventListener("click",function(){
   let m =counter;
-  let o = l+1; 
+   o = l+1; 
   let select =document.getElementById(m);
   if(select){
     select.innerHTML=`${counter} has ${++o}`
