@@ -34,7 +34,8 @@ pause.addEventListener("click",function(){
 })
 heart.addEventListener("click",function(){
   let m =counter;
-  m.setAttribute("id",m);
+  let li = document.createElement("li");
+  li.setAttribute("")
   let text = document.createTextNode(`${counter} has ${}`);
   
 })
