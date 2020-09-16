@@ -33,10 +33,10 @@ pause.addEventListener("click",function(){
     }
 })
 heart.addEventListener("click",function(){
-  let m =counter;
+  let m = counter;
   let li = document.createElement("li");
-  li.setAttribute("")
-  let text = document.createTextNode(`${counter} has ${}`);
+  li.setAttribute("id",m);
+  
   
 })
 submit.addEventListener("click",function(event){
