@@ -39,13 +39,15 @@ heart.addEventListener("click",function(){
   if(select){
     console.log("exist");
   }
+  else{
   let li = document.createElement("li");
   li.setAttribute("id",m);
   let o = l+1; 
-  
-  let text = document.createTextNode(`${counter} has ${o}`);
+  let text = document.createTextNode(`${counter} has ${o}`);  
   li.appendChild(text);
   likes.appendChild(li);
+  }
+ 
 })
 submit.addEventListener("click",function(event){
   let text = document.createTextNode(commentInput.value);
