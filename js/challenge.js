@@ -38,7 +38,7 @@ heart.addEventListener("click",function(){
   let li = document.createElement("li");
   li.setAttribute("id",m);
   let o = l+1; 
-  if()
+  
   let text = document.createTextNode(`${counter} has ${o}`);
   li.appendChild(text);
   likes.appendChild(li);
