@@ -39,12 +39,12 @@ heart.addEventListener("click",function(){
   let O = o;
   let select =document.getElementById(m);
   if(select){
-    select.innerHTML=`${counter} has ${++o}`
+    select.innerHTML=`${counter} has ${++O}`
   }
   else{
   let li = document.createElement("li");
   li.setAttribute("id",m);
-  li.innerHTML=`${counter} has ${o}`
+  li.innerHTML=`${counter} has ${O}`
   likes.appendChild(li);
   }
  
