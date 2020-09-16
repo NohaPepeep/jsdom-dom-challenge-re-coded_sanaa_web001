@@ -36,7 +36,7 @@ pause.addEventListener("click",function(){
 })
 heart.addEventListener("click",function(){
   let m =counter;
-   o = l+1; 
+  
   let select =document.getElementById(m);
   if(select){
     select.innerHTML=`${counter} has ${++o}`
@@ -44,8 +44,6 @@ heart.addEventListener("click",function(){
   else{
   let li = document.createElement("li");
   li.setAttribute("id",m);
-  
-  let text = document.createTextNode(`${counter} has ${o}`);  
   li.innerHTML=`${counter} has ${o}`
   likes.appendChild(li);
   }
