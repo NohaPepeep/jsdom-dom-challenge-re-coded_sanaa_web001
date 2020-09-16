@@ -35,7 +35,7 @@ pause.addEventListener("click",function(){
 heart.addEventListener("click",function(){
   let m =counter;
   m.setAttribute("id",m);
-  let text =`${counter} has `;
+  let text = document.createTextNode(`${counter} has ${}`);
   
 })
 submit.addEventListener("click",function(event){
