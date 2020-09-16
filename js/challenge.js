@@ -31,7 +31,11 @@ pause.addEventListener("click",function(){
       pause.innerHTML="pause";
     }
 })
-
+heart.addEventListener("click",function(){
+  let likes =
+  let text =`${counter} has `;
+  
+})
 submit.addEventListener("click",function(event){
   let text = document.createTextNode(commentInput.value);
   let p = document.createElement("p");
