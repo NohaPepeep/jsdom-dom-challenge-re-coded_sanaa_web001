@@ -1,6 +1,6 @@
 let counter=0;
 let l =0;
-let o;
+let o = 0;
 let count=document.getElementById("counter");
 let minus=document.getElementById("minus");
 let plus=document.getElementById("plus");
