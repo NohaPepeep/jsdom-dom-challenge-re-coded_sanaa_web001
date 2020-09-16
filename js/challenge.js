@@ -36,7 +36,7 @@ pause.addEventListener("click",function(){
 })
 heart.addEventListener("click",function(){
   let m =counter;
-  
+  let O = o;
   let select =document.getElementById(m);
   if(select){
     select.innerHTML=`${counter} has ${++o}`
