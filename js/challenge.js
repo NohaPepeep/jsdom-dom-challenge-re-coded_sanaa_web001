@@ -39,7 +39,7 @@ heart.addEventListener("click",function(){
   let O = o;
   let select =document.getElementById(m);
   if(select){
-    O=select.innerHTML.slice(-1,2);
+    O=select.innerHTML.slice(-1,-2);
     select.innerHTML=`${counter} has   ${++O}`
     console.log(select.innerHTML)
   }
