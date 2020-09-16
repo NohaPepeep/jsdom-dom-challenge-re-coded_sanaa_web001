@@ -35,6 +35,10 @@ pause.addEventListener("click",function(){
 })
 heart.addEventListener("click",function(){
   let m =counter;
+  let select =document.getElementById(m);
+  if(select){
+    console.log("exist");
+  }
   let li = document.createElement("li");
   li.setAttribute("id",m);
   let o = l+1; 
