@@ -1,4 +1,5 @@
 let counter=0;
+let l =0;
 let count=document.getElementById("counter");
 let minus=document.getElementById("minus");
 let plus=document.getElementById("plus");
@@ -33,11 +34,11 @@ pause.addEventListener("click",function(){
     }
 })
 heart.addEventListener("click",function(){
-  let m = counter;
+  let m =counter;
   let li = document.createElement("li");
   li.setAttribute("id",m);
-  
-  
+  let text = document.createTextNode(`${counter} has ${++l}`);
+  likes.appendChild(li);
 })
 submit.addEventListener("click",function(event){
   let text = document.createTextNode(commentInput.value);
