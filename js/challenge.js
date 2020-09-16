@@ -3,6 +3,7 @@ let count=document.getElementById("counter");
 let minus=document.getElementById("minus");
 let plus=document.getElementById("plus");
 let heart=document.getElementById("heart");
+let likes=document.getElementById("likes");
 let pause=document.getElementById("pause");
 let list=document.getElementById("list");
 let submit=document.getElementById("submit");
@@ -32,7 +33,8 @@ pause.addEventListener("click",function(){
     }
 })
 heart.addEventListener("click",function(){
-  let likes =
+  let m =counter;
+  m.setAttribute
   let text =`${counter} has `;
   
 })
